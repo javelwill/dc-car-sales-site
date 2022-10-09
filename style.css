@@ -1,0 +1,118 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --background-color: #f4f4f4;
+  --text-color: #565656;
+  --primary-color: #008ad8;
+}
+
+body {
+  margin: 0;
+  background: var(--background-color);
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 2.8em;
+}
+
+.headings p {
+  font-size: 1.125rem;
+  color: var(--text-color);
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
+
+.search {
+  border: none;
+  padding: 0.8em;
+  border-radius: 2em;
+  background: white url('./assets/search.svg') no-repeat right 0.8em center;
+  width: 100%;
+}
+
+.menu {
+  margin: 0 0.5em;
+  cursor: pointer;
+}
+
+.search:focus {
+  outline: thin dotted;
+}
+
+.options {
+  position: relative;
+}
+
+.filters {
+  position: absolute;
+  top: 3em;
+  right: 1em;
+  background: white;
+  padding: 2em 1.5em;
+  border-radius: 6px;
+  box-shadow: 11px 18px 54px rgba(0, 0, 0, 0.11);
+  clip-path: circle(0% at 100% 0%);
+  transition: clip-path 0.3s ease-in-out;
+}
+
+.filter {
+  margin-bottom: 1.125em;
+}
+
+.filter:last-of-type {
+  margin-bottom: 0;
+}
+
+.far,
+.fas {
+  cursor: pointer;
+}
+
+.labels {
+  display: none;
+}
+
+.cars,
+.labels {
+  margin: -1em -1em 2em;
+  padding: 1em;
+  border-radius: 6px;
+}
+
+.cars:hover {
+  background: white;
+}
+
+.car-name {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 1.22rem;
+}
+
+.car-location {
+  color: var(--text-color);
+  font-size: 1.125rem;
+}
+
+.cols-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
