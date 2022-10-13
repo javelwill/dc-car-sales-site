@@ -6,8 +6,8 @@ This a solution to the car sales site from Design Course
 
 ### Screensots
 
-![](./screenshot01.pg)
-![](./screenshot02.pg)
+![](./screenshot01.png)
+![](./screenshot02.png)
 
 ### Links
 
