@@ -43,8 +43,14 @@ a {
   border: none;
   padding: 0.8em;
   border-radius: 2em;
-  background: white url('./assets/search.svg') no-repeat right 0.8em center;
+  background: white;
   width: 100%;
+}
+
+.search::before {
+  content: '';
+  background: url('./assets/search.svg') url('./assets/search.svg') no-repeat
+    right 0.8em center;
 }
 
 .menu {
